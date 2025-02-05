@@ -1,6 +1,6 @@
 // OpenMP helloworld example
-// compile: gcc -fopenmp hello_threads.c -o hello_threads
-// run: OMP_NUM_THREADS=10 ./hello_threads
+// compile: gcc -fopenmp hw_1.c -o hw_1
+// run: ./hw_1
 
 #include <stdio.h>
 #include <omp.h>
@@ -14,7 +14,7 @@ int main()
     int j;
     int k;
     int temp;
-    int dim = 1000;
+    int dim = 400;
 
     // matrixies
     int a[dim][dim];
